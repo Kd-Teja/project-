@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root {
+    --primary-font--:  "Rubik", sans-serif; 
+    --secondery-font--:  "Mulish", sans-serif;
+    --primary-color--:  #343a40;
+    --secondery-color--: #9b9bae;
+    --btn-color--: white;
+
+}
+.contact {
+    text-align: center;
+}
+.contact h2 {
+    color: var(--primary-color--);
+    font-family: var(--primary-font--);
+    font-size: 28px;
+}
+.contact p {
+    color: var(--secondery-color--);
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+}
+.contact-image img {
+    width: 387px;
+    height: 265px;
+}
+.contact-image h4 {
+    color: var(--primary-color--);
+    font-family: var(--primary-font--);
+    font-size: 23px;
+}
+.contact-image p {
+    color: var(--secondery-color--);
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+}
+.contact-image button{
+    height: 48px;
+    width: 191px;
+    border-style: none;
+    color: #fff;
+    background-color: #2dd6b7;
+    box-shadow: 0 3px 10px #2dd6b780;
+}
+.contact-image p {
+    font-family: var(--secondery-font--);
+    color: var(--primary-color--);
+    font-size: 16px;
+}
+.contact-image ul li {
+    display: flex;
+    display: inline-flex;
+    padding: 6px 16px;
+    margin: 30px;
+    cursor: pointer;
+    background-color: #343a4012;
+    border-radius: 5px;
+}
+li span {
+    color: var(--primary-color--);
+}
+.total {
+    display: flex;
+}
+.name-email {
+    display: flex;
+}
+.email {
+    margin-left: 30px;
+}
+.contact-left {
+    margin-left: 60px;
+    margin-top: 65px;
+}
+.contact-left h4 {
+    color: var(--primary-color--);
+    font-family: var(--primary-font--);
+    font-size: 23px;
+}
+.name label {
+    font-family: var(--secondery-font--);
+    color: var(--primary-color--);
+    font-size: 16px;
+}
+.name input {
+    width: 240px;
+    height: 30px;
+    margin-top: 10px;
+}
+.email input {
+    width: 240px;
+    height: 30px;
+    margin-top: 10px;
+}
+.subject label {
+    font-family: var(--secondery-font--);
+    color: var(--primary-color--);
+    font-size: 16px;
+}
+.subject input {
+    width: 516px;
+    height: 40px;
+    margin-top: 15px;
+}
+.message label {
+    font-family: var(--secondery-font--);
+    color: var(--primary-color--);
+    font-size: 16px;
+    margin-top: -30px;
+}
+.message textarea {
+    width: 516px;
+    height: 40px;
+    margin-top: 30px;
+}
+.button1 button {
+    font-family: var(--secondery-font--);
+    color: white;
+    font-size: 16px;
+    height: 46px;
+    width: 161px;
+    background-color: #3956BE;
+    border-radius: 5PX;
+    border-style: none;
+    margin-top: 15px;
+}
+.contact-right {
+    margin-left: 150px;
+    text-align: center;
+}
+

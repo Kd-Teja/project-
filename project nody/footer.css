@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root {
+    --primary-font--:  "Rubik", sans-serif; 
+    --secondery-font--:  "Mulish", sans-serif;
+    --primary-color--:  #343a40;
+    --secondery-color--: #9b9bae;
+    --btn-color--: white;
+
+}
+.footer-over {
+    background-image: url(images/footerbackground.png);
+    background-color: #292d32;
+}
+.footer p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: #ffffff80;
+}
+.nody-logo img {
+    height: 28px;
+    width: 113px;
+}
+.instagram img {
+    height: 24px;
+    width: 24px;
+}
+.footer-customer h4 {
+    font-family: var(--primary-font--);
+    color: #ffffff;
+    font-size: 22px;
+}
+.footer-customer ul li {
+    font-family: var(--secondery-font--);
+    color: #ffffff99;
+    font-size: 16px;
+    list-style: none;
+}
+.footer-product h4 {
+    font-family: var(--primary-font--);
+    color: #ffffff;
+    font-size: 22px;
+}
+.footer-product ul li {
+    font-family: var(--secondery-font--);
+    color: #ffffff99;
+    font-size: 16px;
+    list-style: none;
+}
+.footer-learnmore h4 {
+    font-family: var(--primary-font--);
+    color: #ffffff;
+    font-size: 22px;
+}
+.footer-learnmore ul li {
+    font-family: var(--secondery-font--);
+    color: #ffffff99;
+    font-size: 16px;
+    list-style: none;
+}
+.footer-bottom p {
+    font-family: var(--secondery-font--);
+    color: #ffffff80;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-total {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer {
+    margin-top: 100px;
+}
+.footer-customer {
+    margin-top: 70px;
+    line-height: 2;
+    text-align: start;
+
+}
+.footer-product {
+    margin-top: 70px;
+    line-height: 2;
+    text-align: start;
+}
+.footer-learnmore {
+    margin-top: 70px;
+    line-height: 2;
+    text-align: start;
+}
+.instagram {
+    display: flex;
+}
+.instagram p {
+    margin-left: 10px;
+    margin-top: -0px;
+}

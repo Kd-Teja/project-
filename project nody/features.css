@@ -1,0 +1,89 @@
+.features h2 {
+    font-family: var(--primary-font--);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+    }
+    .features p {
+        font-family: var(--secondery-font--);
+        font-size: 16px;
+        text-align: center;
+        margin-top: -20px;
+        color: var(--secondery-color--);
+    }
+    .hero-feature {
+        display: flex;
+    }
+    .group-multi{
+        flex-direction: column;
+    }
+    .hero-feature img {
+        height: 516px;
+        width: 470px;
+        margin-left: 70px;
+    }
+    .work {
+        
+        width: 516px;
+        height: 179px;
+        padding: 30px;
+    
+        
+    }
+    .easy {
+        
+        width: 516px;
+        height: 179px;
+        padding: 30px;
+        margin-top: -90px;
+    
+    }
+    .get {
+        
+        width: 516px;
+        height: 179px;
+        padding: 30px; 
+        margin-top: -90px;
+    }
+    
+    .work h4 {
+        font-family: var(--primary-font--);
+        font-size: 18px;
+        color: #343a40;
+    }
+    .work p {
+        font-family: var(--secondery-font--);
+        font-size: 15px;
+        color: var(--secondery-color--);
+    }
+    .work a {
+        text-decoration: none;
+    }
+    .easy h4 {
+        font-family: var(--primary-font--);
+        font-size: 18px;
+        color: #343a40;
+    }
+    .easy p {
+        font-family: var(--secondery-font--);
+        font-size: 15px;
+        color: var(--secondery-color--);
+    }
+    .easy a {
+        text-decoration: none;
+    }
+    .get h4 {
+        font-family: var(--primary-font--);
+        font-size: 18px;
+        color: #343a40;
+    }
+    .get p {
+        font-family: var(--secondery-font--);
+        font-size: 15px;
+        color: var(--secondery-color--);
+    }
+    .get a {
+        text-decoration: none;
+    }

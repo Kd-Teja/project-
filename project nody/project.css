@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root {
+    --primary-font--:  "Rubik", sans-serif; 
+    --secondery-font--:  "Mulish", sans-serif;
+    --primary-color--:  #343a40;
+    --secondery-color--: #9b9bae;
+    --btn-color--: white;
+
+}
+.project-hero h2 {
+    color: var(--primary-color--);
+    font-size: 28px;
+    font-family: var(--primary-font--);
+    text-align: center;
+    padding-top: 80px;
+}
+.project-hero p {
+    color: var(--secondery-color--);
+    font-size: 16px;
+    font-family: var(--secondery-font--);
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: -10px;
+}
+.main-container {
+    background-color: #fbfbfd;
+   
+}
+.container {
+    background-color: #fbfbfd;
+    height: 800px;
+    width: 60%;
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+}
+.container img {
+    margin-top: 40px;
+    height: 300px;
+    width: 350px;
+    margin-right: 110px;
+    border-radius: 10px;
+    margin-left: -90px;
+}
+.professional-ui a {
+    font-family: var(--primary-font--);
+    font-size: 17px;
+    color: var(--primary-color--);
+    text-decoration: none;
+    margin-left: -75px;
+
+}
+.product-ui a {
+    font-family: var(--primary-font--);
+    font-size: 17px;
+    color: var(--primary-color--);
+    text-decoration: none;
+    margin-left: -66px;
+}
+.design-php a {
+    font-family: var(--primary-font--);
+    font-size: 17px;
+    color: var(--primary-color--);
+    text-decoration: none;
+    margin-left: -58px;
+    
+}
+.product-react a {
+    font-family: var(--primary-font--);
+    font-size: 17px;
+    color: var(--primary-color--);
+    text-decoration: none;
+    margin-left: -67px;
+    
+}
+.design-ui a {
+    font-family: var(--primary-font--);
+    font-size: 17px;
+    color: var(--primary-color--);
+    text-decoration: none;
+    margin-left: -58px;
+    
+}
+.graphic-web a {
+    font-family: var(--primary-font--);
+    font-size: 17px;
+    color: var(--primary-color--);
+    text-decoration: none;
+    margin-left: -65px;
+   
+}
+.container p {
+    margin-left: -73px;
+    margin-top: 5px;
+}
+.professional-ui p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: var(--secondery-color--);
+}
+.product-ui p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: var(--secondery-color--);
+}
+.design-php p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: var(--secondery-color--);
+}
+.product-react p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: var(--secondery-color--);
+}
+.design-ui p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: var(--secondery-color--);
+}
+.graphic-web p {
+    font-family: var(--secondery-font--);
+    font-size: 16px;
+    color: var(--secondery-color--);
+}
